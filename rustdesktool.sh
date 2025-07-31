@@ -41,7 +41,7 @@ initself() {
     menutop() {
         clear
         _green '# RustDesk-Server 一键安装脚本'
-        _green '# Github <https://github.com/sshpc/rustdesktool>'
+        _green '# Github <https://github.com/TTSzh/Rustdesk>'
         _blue '# You Server:'${release}
         echo
         _blue ">~~~~~~~~~~~~~~  rustdesk-server tool ~~~~~~~~~~~~<  v: $version"
@@ -139,7 +139,7 @@ checkSystem() {
 updateself() {
 
     _blue '下载github最新版'
-    wget -N http://raw.githubusercontent.com/sshpc/rustdesktool/main/rustdesktool.sh
+    wget -N http://raw.githubusercontent.com/TTSzh/Rustdesk/main/rustdesktool.sh
     # 检查上一条命令的退出状态码
     if [ $? -eq 0 ]; then
         chmod +x ./rustdesktool.sh && ./rustdesktool.sh
