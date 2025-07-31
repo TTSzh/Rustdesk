@@ -30,7 +30,7 @@ q: 退出
 > 推荐 root 用户
 
 ```sh
-wget -N  http://raw.githubusercontent.com/sshpc/rustdesktool/main/rustdesktool.sh && chmod +x ./rustdesktool.sh && ./rustdesktool.sh
+wget -N http://raw.githubusercontent.com/TTSzh/Rustdesk/main/rustdesktool.sh && chmod +x ./rustdesktool.sh && ./rustdesktool.sh
 ```
 
 > 再次执行
